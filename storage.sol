@@ -13,6 +13,12 @@ uint256 public luffyuint ; //by default 0
 // address luffyAddress = 0xf54A000e98d5fe72Fcc8d9524567009066a93FDA;
 // bytes32  luffyBytes  = "zoro";  //0x29837894767689697  // random number
 
+struct People {
+uint256 fvrtnum;
+string name;
+
+}
+People public person = People({fvrtnum:1 ,name:"amn"});
 
 //function
 
@@ -20,9 +26,14 @@ function store ( uint256 _luffyuint) public {
 
     luffyuint = _luffyuint;
 }
-
+ // view -> reading not modification, // pure->  no reading , no modification 
 function get () public view returns (uint256)
 {
     return luffyuint;
+}
+
+function add( )  public pure returns (uint256){
+
+    return(2+2);
 }
 }
