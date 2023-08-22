@@ -1,0 +1,22 @@
+{
+  "name": "practice--sol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknankpuria/solidity-basics.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aknankpuria/solidity-basics/issues"
+  },
+  "homepage": "https://github.com/aknankpuria/solidity-basics#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
