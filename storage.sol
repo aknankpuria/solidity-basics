@@ -1,6 +1,6 @@
 //SPDX_License-Identifier: MIT
 
-pragma solidity 0.8.8;
+pragma solidity 0.8.21;
 
 
 contract SimpleStorage{
@@ -31,7 +31,7 @@ function get () public view returns (uint256)
 {
     return luffyuint;
 }
-
+// storage ... memory ... typecall
 function add( )  public pure returns (uint256){
 
     return(2+2);
