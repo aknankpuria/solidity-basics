@@ -37,3 +37,5 @@ function add( )  public pure returns (uint256){
     return(2+2);
 }
 }
+
+//gotta do mapping  -> little bit similiar to python dictionary
