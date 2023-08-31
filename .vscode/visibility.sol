@@ -24,4 +24,7 @@
          //Public functions are part of the contract interface and can be either called internally or via message calls.
 
 // internal 
-          // 
+          // Internal functions can only be accessed from within the current contract or contracts deriving from it. They cannot be accessed externally. Since they are not exposed to the outside through the contract’s ABI, they can take parameters of internal types like mappings or storage references.
+
+// private
+//            Private functions are like internal ones but they are not visible in derived contracts.
