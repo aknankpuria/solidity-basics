@@ -8,3 +8,6 @@ contract C {
         return this.data(); // external access
     }
 }
+
+
+// this keyword ->
