@@ -21,4 +21,7 @@
 
 
 // ppublic 
-         //
+         //Public functions are part of the contract interface and can be either called internally or via message calls.
+
+// internal 
+          // 
