@@ -61,3 +61,4 @@ contract E is C {
 }
 
 
+// is keyword is used for inheritence in solidity 
