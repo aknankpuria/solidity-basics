@@ -10,4 +10,4 @@ contract C {
 }
 
 
-// this keyword ->
+// this keyword -> It means that this is the pointer to the current instance of the type derived from Address (in your case - current instance of Helper), and balance is a member of Address.
