@@ -1,3 +1,6 @@
+
+// # state variables -->>
+
 // public
 // Public state variables differ from internal ones only in that the compiler automatically generates getter functions for them, which allows other contracts to read their values. When used within the same contract, the external access (e.g. this.x) invokes the getter while internal access (e.g. x) gets the variable value directly from storage. Setter functions are not generated so other contracts cannot directly modify their values.
 
