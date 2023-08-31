@@ -9,3 +9,16 @@
 
 // private
 // Private state variables are like internal ones but they are not visible in derived contracts.
+
+
+
+// --> functon visibility
+
+
+
+// external 
+         // External functions are part of the contract interface, which means they can be called from other contracts and via transactions. An external function f cannot be called internally (i.e. f() does not work, but this.f() works).
+
+
+// ppublic 
+         //
