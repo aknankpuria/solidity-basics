@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+//-->this example dipicts the funtion modifier --> how we can set the condition on function call 
 
 contract FunctionModifier {
     // We will use these variables to demonstrate how to use
