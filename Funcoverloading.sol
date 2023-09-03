@@ -1,3 +1,6 @@
+//SPDX_License-Identifier: MIT
+pragma solidity 0.8.21;
+
 contract Test {
    function getSum(uint a, uint b) public pure returns(uint){      
       return a + b;
